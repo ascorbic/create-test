@@ -1,8 +1,8 @@
 {
     "name": "@ascorbic/create-test",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "lib/index.js",
-    "bin": "lib/index.js",
+    "bin": "lib/cli.js",
     "license": "MIT",
     "scripts": {
         "build": "tsc",
