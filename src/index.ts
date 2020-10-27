@@ -9,13 +9,14 @@ interface IAnswers {
 }
 
 export async function run() {
-    console.log(`Welcome! Let's ask some questions`);
+    console.log(`Welcome to Gatsby! Let's answer some questions`);
     const data = await prompt<IAnswers>(questions);
-
-    console.log(data);
 
     await initStarter(
         "https://github.com/gatsbyjs/gatsby-starter-hello-world.git",
         data.project
+    );
+    console.log(
+        "Looks like you should probably go and implement `gatsby plugin add` then!"
     );
 }
