@@ -1,8 +1,8 @@
 [
     {
         "type": "input",
-        "name": "username",
-        "message": "What is your username?",
-        "initial": "ascorbic"
+        "name": "project",
+        "message": "What shall we call your new site?",
+        "initial": "my-gatsby-site"
     }
 ]
