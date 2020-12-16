@@ -1,8 +1,0 @@
-[
-    {
-        "type": "input",
-        "name": "project",
-        "message": "What shall we call your new site?",
-        "initial": "my-gatsby-site"
-    }
-]

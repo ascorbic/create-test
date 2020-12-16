@@ -30,6 +30,9 @@
         "prettier": "^2.1.2",
         "typescript": "^4.0.5"
     },
+    "config": {
+        "prefer-online": true
+    },
     "repository": "git@github.com:ascorbic/create-test.git",
     "author": "Matt Kane <m@mk.gg>"
 }
